@@ -7,8 +7,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>PREVIEW</h1>
-      <p>Cannot go live! Just a preview.</p>
+      <h1>PRODUCTION</h1>
       <p>var 1: {my_var}</p>
       <p>vyr 2: {my_var2}</p>
     </div>
