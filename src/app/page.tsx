@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>PRODUCTION</h1>
+      <h1>PRODUCTION 2</h1>
       <p>var 1: {my_var}</p>
       <p>vyr 2: {my_var2}</p>
     </div>
