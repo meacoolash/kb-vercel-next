@@ -1,11 +1,16 @@
 import Image from "next/image";
 
 export default function Home() {
+
+  const my_var = process.env.MY_KEY;
+  const my_var2 = process.env.MY_KEY_2;
+
   return (
     <div>
-      <h1>PRODUCTION</h1>
-      This would be the home page of my new NextJS app.
-      Working, tested, deployed to production. 
+      <h1>PREVIEW</h1>
+      <p>Cannot go live! Just a preview.</p>
+      <p>var 1: {my_var}</p>
+      <p>vyr 2: {my_var2}</p>
     </div>
   );
 }
